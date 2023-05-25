@@ -1,0 +1,62 @@
+.Cruds h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Cruds h3{
+    text-align: center;
+    margin-bottom: 1rem;  
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 59px;
+    color: #99957E;    
+}
+
+.link2{
+    background-color: #DAD5B7;
+    opacity: 90%;
+    color: #3a6f63e9;
+    border: none;
+    padding: 0.5rem 1rem;
+    max-width: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.form-control label{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.form-control input,
+.form-control textarea{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    height: 15px;
+    border-color: #DDD18C;
+}
+
+.form-control select{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    border-color: #DDD18C;
+    width: 75px;
+}
+
